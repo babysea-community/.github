@@ -1,7 +1,7 @@
 <div align="center">
 
 <p>
-  <img src="../public/logo.png" width="200" alt="BabySea logo" />
+  <img src="../public/logo.png" width="160" alt="BabySea logo" />
 </p>
 
 <h1>
@@ -91,6 +91,7 @@ flowchart TB
 
   starters --> media["Generative Media Starter<br/>credit-based media app"]
   starters --> sherin["Sherin<br/>private self-hosted workspace"]
+  starters --> babychain["BabyChain<br/>model chain API engine"]
 
   classDef root fill:#111827,stroke:#111827,color:#FFFFFF;
   classDef sdkClass fill:#F3E8FF,stroke:#7C3AED,color:#3B0764;
@@ -99,7 +100,7 @@ flowchart TB
   class oss root;
   class sdk,babysea sdkClass;
   class primitives,adaptive,ledger,rosetta primitiveClass;
-  class starters,media,sherin starterClass;
+  class starters,media,sherin,babychain starterClass;
 ```
 
 ## BabySea OSS taxonomy
@@ -135,11 +136,12 @@ BabySea OSS projects are published into three status levels:
 | Project | Taxonomy | Status | Boundary |
 | :--- | :--- | :--- | :--- |
 | [`babysea`](https://www.npmjs.com/package/babysea) | SDK | Production | Typed JavaScript and TypeScript client for BabySea generation workflows. |
-| [Adaptive Island](https://github.com/babysea-community/adaptive-island) | Primitive | Production | Cache-first provider selection for multi-provider inference workloads. |
-| [Ledger Fortress](https://github.com/babysea-community/ledger-fortress) | Primitive | Production | Atomic reserve, charge, refund, and settlement flows for async credit systems. |
-| [Rosetta Bridge](https://github.com/babysea-community/rosetta-bridge) | Primitive | Production | Strict request normalization across provider schemas and adapters. |
-| [Generative Media Starter](https://github.com/babysea-community/generative-media-starter) | Starter | Working | Credit-based generative media app with auth, Stripe, Supabase, Upstash, and BabySea. |
-| [Sherin](https://github.com/babysea-community/sherin) | Starter | Working | Self-hosted private media workspace with your own key, domain, and storage. |
+| [Adaptive Island](https://github.com/babysea-community/adaptive-island) | Primitive | Production | Cache-first provider selection engine for multi-provider inference workloads. |
+| [Ledger Fortress](https://github.com/babysea-community/ledger-fortress) | Primitive | Production | Atomic credit settlement engine for async inference workloads. |
+| [Rosetta Bridge](https://github.com/babysea-community/rosetta-bridge) | Primitive | Production | Request normalization engine for multi-provider inference workloads. |
+| [Generative Media Starter](https://github.com/babysea-community/generative-media-starter) | Starter | Working | Credit-based generative media app starter with auth, prepaid credits, and private storage. |
+| [Sherin](https://github.com/babysea-community/sherin) | Starter | Working | Self-hosted private workspace for generative media with own key, domain, and storage. |
+| [BabyChain](https://github.com/babysea-community/babychain) | Starter | Alpha | Model chain API engine for image and video workloads with one durable pipeline and one final callback. |
 
 ## Quickstart
 
@@ -214,12 +216,3 @@ BabySea is designed for production generative media workloads. Public operationa
 | Documentation | [docs.babysea.ai](https://docs.babysea.ai) |
 | Playground | [us.babysea.ai/playground](https://us.babysea.ai/playground) |
 | npm | [babysea](https://www.npmjs.com/package/babysea) |
-
-## Start here
-
-| Path | Best first step |
-| :--- | :--- |
-| Product engineer | Try the [Playground](https://us.babysea.ai/playground), then install [`babysea`](https://www.npmjs.com/package/babysea). |
-| Founder or team lead | Read the [Quickstart](https://docs.babysea.ai/quickstart) and review the [Trust Center](https://trust.babysea.ai). |
-| OSS builder | Clone a [starter](https://github.com/babysea-community/generative-media-starter) or study a [primitive](https://github.com/babysea-community/rosetta-bridge). |
-| Partner or customer | Email [dev@babysea.ai](mailto:dev@babysea.ai). |
