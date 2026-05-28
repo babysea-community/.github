@@ -12,6 +12,8 @@
   <strong>Authenticate, validate, rate limit, reserve credits, select providers, execute workloads, fail over, persist artifacts, and deliver results through one control plane.</strong>
 </p>
 
+<br />
+
 [![BabySea Website](https://custom-icon-badges.demolab.com/badge/visit-website-0D9488?style=for-the-badge&logo=babysea&logoColor=white)](https://babysea.ai)
 [![BabySea Templates](https://custom-icon-badges.demolab.com/badge/babysea-templates-4F46E5?style=for-the-badge&logo=babysea&logoColor=white)](https://babysea.ai/templates)
 [![BabySea Docs](https://custom-icon-badges.demolab.com/badge/learn-docs-2563EB?style=for-the-badge&logo=babysea&logoColor=white)](https://docs.babysea.ai)
