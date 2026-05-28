@@ -1,7 +1,7 @@
 <div align="center">
 
 <p>
-  <img src="../public/logo.png" width="120" alt="BabySea logo" />
+  <img src="../public/logo.png" width="200" alt="BabySea logo" />
 </p>
 
 <h1>
