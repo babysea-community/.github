@@ -15,7 +15,7 @@
 <br />
 
 [![BabySea Website](https://custom-icon-badges.demolab.com/badge/visit-website-0D9488?style=for-the-badge&logo=babysea&logoColor=white)](https://babysea.ai)
-[![BabySea Templates](https://custom-icon-badges.demolab.com/badge/babysea-templates-4F46E5?style=for-the-badge&logo=babysea&logoColor=white)](https://babysea.ai/templates)
+[![BabySea Templates](https://custom-icon-badges.demolab.com/badge/babysea-templates-E11D48?style=for-the-badge&logo=babysea&logoColor=white)](https://babysea.ai/templates)
 [![BabySea Docs](https://custom-icon-badges.demolab.com/badge/learn-docs-2563EB?style=for-the-badge&logo=babysea&logoColor=white)](https://docs.babysea.ai)
 [![BabySea Model Schema](https://custom-icon-badges.demolab.com/badge/explore-model_schema-DB2777?style=for-the-badge&logo=babysea&logoColor=white)](https://babysea.ai/model-schema)
 [![BabySea FAQs](https://custom-icon-badges.demolab.com/badge/see-faqs-7C3AED?style=for-the-badge&logo=babysea&logoColor=white)](https://us.babysea.ai/playground)
