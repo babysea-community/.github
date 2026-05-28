@@ -12,9 +12,8 @@
   <strong>Authenticate, validate, rate limit, reserve credits, select providers, execute workloads, fail over, persist artifacts, and deliver results through one control plane.</strong>
 </p>
 
-<br />
-
 [![BabySea Website](https://custom-icon-badges.demolab.com/badge/visit-website-0D9488?style=for-the-badge&logo=babysea&logoColor=white)](https://babysea.ai)
+[![BabySea Templates](https://custom-icon-badges.demolab.com/badge/babysea-templates-4F46E5?style=for-the-badge&logo=babysea&logoColor=white)](https://babysea.ai/templates)
 [![BabySea Docs](https://custom-icon-badges.demolab.com/badge/learn-docs-2563EB?style=for-the-badge&logo=babysea&logoColor=white)](https://docs.babysea.ai)
 [![BabySea Model Schema](https://custom-icon-badges.demolab.com/badge/explore-model_schema-DB2777?style=for-the-badge&logo=babysea&logoColor=white)](https://babysea.ai/model-schema)
 [![BabySea FAQs](https://custom-icon-badges.demolab.com/badge/see-faqs-7C3AED?style=for-the-badge&logo=babysea&logoColor=white)](https://us.babysea.ai/playground)
@@ -65,13 +64,13 @@ flowchart LR
 
 ## What BabySea standardizes
 
-| Layer          | What it standardizes                                                                                      | Why it matters                                                              |
-| :------------- | :-------------------------------------------------------------------------------------------------------- | :-------------------------------------------------------------------------- |
-| **API**        | Generation create, retrieve, cancel, delete, and observe flows.                                           | Product teams build against one contract instead of provider-specific APIs. |
-| **Runtime**    | Provider routing, failover, lifecycle state, errors, and delivery behavior.                               | Workloads stay predictable even when providers differ.                      |
-| **SDK**        | Typed JavaScript and TypeScript integration through [BabySea SDK](https://www.npmjs.com/package/babysea). | Teams ship faster with a clean application boundary.                        |
-| **Operations** | Regional endpoints, status visibility, trust posture, and documented failure modes.                       | Generative media becomes something teams can run, not just call.            |
-| **Webhooks**   | Signed generation lifecycle events | Downstream systems can react reliably to async media jobs.           |                                                                             |
+| Layer | What it standardizes | Why it matters |
+| :--- | :--- | :--- |
+| **API** | Generation create, retrieve, cancel, delete, and observe flows | Product teams build against one contract instead of provider-specific APIs. |
+| **Runtime** | Provider routing, failover, lifecycle state, errors, and delivery behavior | Workloads stay predictable even when providers differ. |
+| **SDK** | Typed JavaScript and TypeScript integration through [`babysea`](https://www.npmjs.com/package/babysea) | Teams ship faster with a clean application boundary. |
+| **Webhooks** | Signed generation lifecycle events | Downstream systems can react reliably to async media jobs. |
+| **Operations** | Regional endpoints, status visibility, trust posture, and documented failure modes | Generative media becomes something teams can run, not just call. |
 
 ## Open source system
 
@@ -133,15 +132,15 @@ BabySea OSS projects are published into three status levels:
 
 ## Portfolio
 
-| Project                                                                                   | Taxonomy  | Status     | Boundary                                                                                               |
-| :---------------------------------------------------------------------------------------- | :-------- | :--------- | :----------------------------------------------------------------------------------------------------- |
-| [BabySea SDK](https://github.com/babysea-community/babysea)                               | SDK       | Production | TypeScript SDK for the BabySea execution control plane for generative media.                           |
-| [Adaptive Island](https://github.com/babysea-community/adaptive-island)                   | Primitive | Production | Cache-first provider selection engine for multi-provider inference workloads.                          |
-| [Ledger Fortress](https://github.com/babysea-community/ledger-fortress)                   | Primitive | Production | Atomic credit settlement engine for async inference workloads.                                         |
-| [Rosetta Bridge](https://github.com/babysea-community/rosetta-bridge)                     | Primitive | Production | Request normalization engine for multi-provider inference workloads.                                   |
-| [BabyChain](https://github.com/babysea-community/babychain)                               | Starter   | Production | Model chain API engine for image and video workloads with one durable pipeline and one final callback. |
-| [Generative Media Starter](https://github.com/babysea-community/generative-media-starter) | Starter   | Working    | Credit-based generative media app starter with auth, prepaid credits, and private storage.             |
-| [Sherin](https://github.com/babysea-community/sherin)                                     | Starter   | Working    | Self-hosted private workspace for generative media with own key, domain, and storage.                  |
+| Project | Taxonomy | Status | Boundary |
+| :--- | :--- | :--- | :--- |
+| [`babysea`](https://www.npmjs.com/package/babysea) | SDK | Production | Typed JavaScript and TypeScript client for BabySea generation workflows. |
+| [Adaptive Island](https://github.com/babysea-community/adaptive-island) | Primitive | Production | Cache-first provider selection engine for multi-provider inference workloads. |
+| [Ledger Fortress](https://github.com/babysea-community/ledger-fortress) | Primitive | Production | Atomic credit settlement engine for async inference workloads. |
+| [Rosetta Bridge](https://github.com/babysea-community/rosetta-bridge) | Primitive | Production | Request normalization engine for multi-provider inference workloads. |
+| [Generative Media Starter](https://github.com/babysea-community/generative-media-starter) | Starter | Working | Credit-based generative media app starter with auth, prepaid credits, and private storage. |
+| [Sherin](https://github.com/babysea-community/sherin) | Starter | Working | Self-hosted private workspace for generative media with own key, domain, and storage. |
+| [BabyChain](https://github.com/babysea-community/babychain) | Starter | Alpha | Model chain API engine for image and video workloads with one durable pipeline and one final callback. |
 
 ## Quickstart
 
@@ -187,21 +186,21 @@ Full guide: [docs.babysea.ai/quickstart](https://docs.babysea.ai/quickstart)
 
 ## Built for builders who need more than a model call
 
-| Need                             | BabySea posture                                                                          |
-| :------------------------------- | :--------------------------------------------------------------------------------------- |
-| Ship generation features quickly | Typed SDK, playground, generated cURL, and reference starters.                           |
-| Avoid provider lock-in           | Public request contracts and provider-aware execution boundaries.                        |
-| Run async media safely           | Lifecycle states, signed webhooks, structured errors, and cancellation support.          |
-| Control cost and reliability     | Provider ordering, routing intelligence, failover patterns, and credit-aware primitives. |
-| Operate globally                 | Regional APIs for US, EU, and APAC workloads.                                            |
+| Need | BabySea posture |
+| :--- | :--- |
+| Ship generation features quickly | Typed SDK, playground, generated cURL, and reference starters. |
+| Avoid provider lock-in | Public request contracts and provider-aware execution boundaries. |
+| Run async media safely | Lifecycle states, signed webhooks, structured errors, and cancellation support. |
+| Control cost and reliability | Provider ordering, routing intelligence, failover patterns, and credit-aware primitives. |
+| Operate globally | Regional APIs for US, EU, and APAC workloads. |
 
 ## Regions
 
-| Region | Playground                                                           | API                            |
-| :----- | :------------------------------------------------------------------- | :----------------------------- |
-| US     | [https://us.babysea.ai/playground](https://us.babysea.ai/playground) | `https://api.us.babysea.ai/v1` |
-| EU     | [https://eu.babysea.ai/playground](https://eu.babysea.ai/playground) | `https://api.eu.babysea.ai/v1` |
-| APAC   | [https://jp.babysea.ai/playground](https://jp.babysea.ai/playground) | `https://api.jp.babysea.ai/v1` |
+| Region | Playground | API |
+| :--- | :--- | :--- |
+| US | [https://us.babysea.ai/playground](https://us.babysea.ai/playground) | `https://api.us.babysea.ai/v1` |
+| EU | [https://eu.babysea.ai/playground](https://eu.babysea.ai/playground) | `https://api.eu.babysea.ai/v1` |
+| APAC | [https://jp.babysea.ai/playground](https://jp.babysea.ai/playground) | `https://api.jp.babysea.ai/v1` |
 
 Choose the region closest to your users, compliance needs, or provider availability.
 
@@ -209,10 +208,10 @@ Choose the region closest to your users, compliance needs, or provider availabil
 
 BabySea is designed for production generative media workloads. Public operational surfaces include regional endpoints, API key authentication, structured errors, signed webhooks, rate limits, status visibility, and a trust center.
 
-| Surface       | Link                                                         |
-| :------------ | :----------------------------------------------------------- |
-| Trust Center  | [trust.babysea.ai](https://trust.babysea.ai)                 |
-| Status        | [status.babysea.ai](https://status.babysea.ai)               |
-| Documentation | [docs.babysea.ai](https://docs.babysea.ai)                   |
-| Playground    | [us.babysea.ai/playground](https://us.babysea.ai/playground) |
-| npm           | [babysea](https://www.npmjs.com/package/babysea)             |
+| Surface | Link |
+| :--- | :--- |
+| Trust Center | [trust.babysea.ai](https://trust.babysea.ai) |
+| Status | [status.babysea.ai](https://status.babysea.ai) |
+| Documentation | [docs.babysea.ai](https://docs.babysea.ai) |
+| Playground | [us.babysea.ai/playground](https://us.babysea.ai/playground) |
+| npm | [babysea](https://www.npmjs.com/package/babysea) |
