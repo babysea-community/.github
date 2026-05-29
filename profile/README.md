@@ -1,21 +1,15 @@
 <div align="center">
 
-<p>
-  <img src="../public/logo.png" width="200" alt="BabySea logo" />
-</p>
+<img src="../public/logo.png" width="200" alt="BabySea logo" />
 
-<h1>
-  Execution control plane for generative media
-</h1>
+# Execution control plane for generative media
 
-<p>
-  <strong>Authenticate, validate, rate limit, reserve credits, select providers, execute workloads, fail over, persist artifacts, and deliver results through one control plane.</strong>
-</p>
+Authenticate, validate, rate limit, reserve credits, select providers, execute workloads, fail over, persist artifacts, and deliver results through one control plane.
 
 <br />
 
 [![BabySea Website](https://custom-icon-badges.demolab.com/badge/visit-website-0D9488?style=for-the-badge&logo=babysea&logoColor=white)](https://babysea.ai)
-[![BabySea Templates](https://custom-icon-badges.demolab.com/badge/babysea-templates-E11D48?style=for-the-badge&logo=babysea&logoColor=white)](https://babysea.ai/templates)
+[![BabySea Templates](https://custom-icon-badges.demolab.com/badge/find-templates-E11D48?style=for-the-badge&logo=babysea&logoColor=white)](https://babysea.ai/templates)
 [![BabySea Docs](https://custom-icon-badges.demolab.com/badge/learn-docs-2563EB?style=for-the-badge&logo=babysea&logoColor=white)](https://docs.babysea.ai)
 [![BabySea Model Schema](https://custom-icon-badges.demolab.com/badge/explore-model_schema-DB2777?style=for-the-badge&logo=babysea&logoColor=white)](https://babysea.ai/model-schema)
 [![BabySea FAQs](https://custom-icon-badges.demolab.com/badge/see-faqs-7C3AED?style=for-the-badge&logo=babysea&logoColor=white)](https://us.babysea.ai/playground)
@@ -136,12 +130,12 @@ BabySea OSS projects are published into three status levels:
 
 | Project | Taxonomy | Status | Boundary |
 | :--- | :--- | :--- | :--- |
-| [`babysea`](https://www.npmjs.com/package/babysea) | SDK | Production | Typed JavaScript and TypeScript client for BabySea generation workflows. |
+| [BabySea SDK](https://www.npmjs.com/package/babysea) | SDK | Production | Production TypeScript SDK for the BabySea execution control plane for generative media. |
 | [Adaptive Island](https://github.com/babysea-community/adaptive-island) | Primitive | Production | Cache-first provider selection engine for multi-provider inference workloads. |
 | [Ledger Fortress](https://github.com/babysea-community/ledger-fortress) | Primitive | Production | Atomic credit settlement engine for async inference workloads. |
 | [Rosetta Bridge](https://github.com/babysea-community/rosetta-bridge) | Primitive | Production | Request normalization engine for multi-provider inference workloads. |
-| [Generative Media Starter](https://github.com/babysea-community/generative-media-starter) | Starter | Working | Credit-based generative media app starter with auth, prepaid credits, and private storage. |
-| [Sherin](https://github.com/babysea-community/sherin) | Starter | Working | Self-hosted private workspace for generative media with own key, domain, and storage. |
+| [Generative Media Starter](https://github.com/babysea-community/generative-media-starter) | Starter | Working | Credit-based generative media app with auth, prepaid credits, and private storage. |
+| [Sherin](https://github.com/babysea-community/sherin) | Starter | Working | Private workspace for generative media with own key, domain, and storage. |
 | [BabyChain](https://github.com/babysea-community/babychain) | Starter | Alpha | Model chain API engine for image and video workloads with one durable pipeline and one final callback. |
 
 ## Quickstart
