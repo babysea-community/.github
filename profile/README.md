@@ -10,10 +10,10 @@ Authenticate, validate, rate limit, reserve credits, select providers, execute w
 
 [![BabySea Website](https://custom-icon-badges.demolab.com/badge/visit-website-0D9488?style=for-the-badge&logo=babysea&logoColor=white)](https://babysea.ai)
 [![BabySea Templates](https://custom-icon-badges.demolab.com/badge/find-templates-E11D48?style=for-the-badge&logo=babysea&logoColor=white)](https://babysea.ai/templates)
-[![BabySea Docs](https://custom-icon-badges.demolab.com/badge/learn-docs-2563EB?style=for-the-badge&logo=babysea&logoColor=white)](https://docs.babysea.ai)
 [![BabySea Model Schema](https://custom-icon-badges.demolab.com/badge/explore-model_schema-DB2777?style=for-the-badge&logo=babysea&logoColor=white)](https://babysea.ai/model-schema)
-[![BabySea FAQs](https://custom-icon-badges.demolab.com/badge/see-faqs-7C3AED?style=for-the-badge&logo=babysea&logoColor=white)](https://us.babysea.ai/playground)
 [![BabySea Playground](https://custom-icon-badges.demolab.com/badge/try-playground-EA580c?style=for-the-badge&logo=babysea&logoColor=white)](https://us.babysea.ai/playground)
+[![BabySea FAQs](https://custom-icon-badges.demolab.com/badge/see-faqs-7C3AED?style=for-the-badge&logo=babysea&logoColor=white)](https://us.babysea.ai/playground)
+[![BabySea Docs](https://custom-icon-badges.demolab.com/badge/learn-docs-2563EB?style=for-the-badge&logo=babysea&logoColor=white)](https://docs.babysea.ai)
 
 <br />
 
