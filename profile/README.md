@@ -136,7 +136,7 @@ BabySea OSS projects are published into three status levels:
 | [Rosetta Bridge](https://github.com/babysea-community/rosetta-bridge) | Primitive | Production | Request normalization engine for multi-provider inference workloads. |
 | [Generative Media Starter](https://github.com/babysea-community/generative-media-starter) | Starter | Working | Credit-based generative media app with auth, prepaid credits, and private storage. |
 | [Sherin](https://github.com/babysea-community/sherin) | Starter | Working | Private workspace for generative media with own key, domain, and storage. |
-| [BabyChain](https://github.com/babysea-community/babychain) | Starter | Alpha | Model chain API engine for image and video workloads with one durable pipeline and one final callback. |
+| [BabyChain](https://github.com/babysea-community/babychain) | Starter | Alpha | Self-hosted model chain API engine for image and video workflows with durable state and one final callback. |
 
 ## Quickstart
 
