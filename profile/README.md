@@ -130,13 +130,14 @@ BabySea OSS projects are published into three status levels:
 
 | Project | Taxonomy | Status | Boundary |
 | :--- | :--- | :--- | :--- |
-| [BabySea SDK](https://www.npmjs.com/package/babysea) | SDK | Production | Production TypeScript SDK for the BabySea execution control plane for generative media. |
+| [BabySea SDK](https://www.npmjs.com/package/babysea) | SDK | Production | Execution control plane SDK for generative media. |
+| [Semantic Lady](https://www.npmjs.com/package/semantic-lady) | SDK | Production | Schema unification SDK for generative media model APIs. |
 | [Adaptive Island](https://github.com/babysea-community/adaptive-island) | Primitive | Production | Cache-first provider selection engine for multi-provider inference workloads. |
 | [Ledger Fortress](https://github.com/babysea-community/ledger-fortress) | Primitive | Production | Atomic credit settlement engine for async inference workloads. |
 | [Rosetta Bridge](https://github.com/babysea-community/rosetta-bridge) | Primitive | Production | Request normalization engine for multi-provider inference workloads. |
+| [BabyChain](https://github.com/babysea-community/babychain) | Starter | Production | Model chain API engine for image and video workflows with durable state and one final callback. |
 | [Generative Media Starter](https://github.com/babysea-community/generative-media-starter) | Starter | Working | Credit-based generative media app with auth, prepaid credits, and private storage. |
-| [Sherin](https://github.com/babysea-community/sherin) | Starter | Working | Private workspace for generative media with own key, domain, and storage. |
-| [BabyChain](https://github.com/babysea-community/babychain) | Starter | Alpha | Self-hosted model chain API engine for image and video workflows with durable state and one final callback. |
+| [Sherin](https://github.com/babysea-community/sherin) | Starter | Production | Private workspace for generative media with own key, domain, and storage. |
 
 ## Quickstart
 
